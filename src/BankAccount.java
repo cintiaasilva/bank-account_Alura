@@ -55,7 +55,7 @@ public class BankAccount {
                 case 1:
                     // Visualização do saldo
                     Object saldo = customerData.get("saldoInicial");
-                    System.out.printf("Atualmente seu saldo está %.2f R$ %n%n", saldo);
+                    System.out.printf("Atualmente seu saldo está %.2f R$ %n%n", (double) saldo);
                     break;
                 case 2:
                     // Receber valor
