@@ -17,8 +17,11 @@ public class BankAccount {
                 """;
 
     public static void main(String[] args) {
-        System.out.println("Digite o seu nome " +
-                "e em seguida o tipo da sua conta: \n\n");
+        System.out.println("""
+                Digite o seu nome \
+                e em seguida o tipo da sua conta:\s
+                
+                """);
         Map<String, Object> customerData = getCustomerData();
         System.out.println(customerData.get("mensagem"));
         optionsMenu(customerData);
